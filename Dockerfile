@@ -14,3 +14,4 @@ ENV fulljar=${fullname}.jar
 RUN ls && pwd
 RUN java -jar my-app-2.0.1.jar
 CMD exec java -jar ${fulljar}
+
