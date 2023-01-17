@@ -1,7 +1,7 @@
 FROM maven:3-jdk-8-alpine AS build
 COPY my-app app
 WORKDIR /my-app
-RUN cd app && ls && mvn package -f pom.xml
+RUN cd /app && ls && mvn package -f pom.xml
 
 
 
